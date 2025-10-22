@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  background-color: lightyellow;
+  width: 95%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+  height: 20em;
+  flex-wrap: wrap;
+  gap: 0.5em 3em;
+}
+#shop {
+  width: 90%;
+}
+
+.navButtons {
+  background-color: rgba(249, 173, 50, 0.591);
+  padding: 1em;
+  border-radius: 30%;
+}
+#contFoto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  width: 10em;
+}
+#logo {
+  width: 2em;
+  flex-grow: 1;
+}
+#A {
+  align-self: center;
+  width: 90%;
+}
+
+.card img {
+  width: 100%;
+}
